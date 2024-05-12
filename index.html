@@ -158,7 +158,7 @@
   // Student Page Content
   const studentContent = `
     <div class="container mt-5">
-      <h2>Student Details</h2>
+     
       <div id="studentForm">
         <form id="loginForm">
           <div class="mb-3">
@@ -172,7 +172,37 @@
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
+      
       <div id="studentResult" style="display: none;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="homeLink">Kocaeli University</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="homepageLink">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="departmentInfoLink">Department Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="studentAffairsLink">Student Affairs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="whatToDoLink">What You Need To Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="generalLink">General</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
         <div class="container mt-5" id="studentDetails" style="display: none;">
           <div class="center-box">
             <p>Student ID: 220601172</p>
@@ -180,20 +210,91 @@
             <p>Faculty: Faculty of Medicine</p>
             <p>Program: Medicine</p>
           </div>
+          <p> <style>
+    .announcement-heading {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .announcement-content {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+
+
+  <div class="container mt-5" id="content">
+  <!-- Announcement Box -->
+  <div class="container-box">
+    <div class="announcement-heading">
+      <h2>You are invited to the "Grain of Wheat" Film Screening and Interview</h2>
+    </div>
+    <div class="announcement-content">
+      <p>Organized by Kocaeli University Disabled Research and Application Unit on Monday, May 13 at 13.00 on the occasion of Disabled People's Week; You are invited to a screening of the film that tells the true life story of a disabled individual who becomes a member of parliament, and then to an interview with Istanbul MP Serkan Bayram, the hero of the life story that is the subject of the movie.</p>
+    </div>
+  </div>
+</div>
+</p>
+<p><div class="container mt-5" id="content">
+  <!-- Announcement Box -->
+  <div class="container-box">
+    <div class="announcement-heading">
+      <h2>About Examination Right Applications.</h2>
+    </div>
+    <div class="announcement-content">
+      <p>Students who have completed their maximum education period and obtained additional semester or unlimited exam rights for graduation by taking additional exams held on the relevant dates can use the "Request Procedures / Examination" page on the student information system pages for courses in which they have failed and for which only the exam right will be used, for which the course selection is not made from the student information system during the course registration period. By using the "Right" link, students will be able to select (application for) courses among the unsuccessful courses for which they have met the attendance requirement between 03-12 May at 17.30 . If the applied course is a Fall semester course, the exams will be held between 20-24 May 2024 (Make-up exam week), and if it is a Spring semester course, the exams will be held between 27 May-07 June 2024 (Final exam week).</p>
+    </div>
+  </div>
+</div></p>
+<p><div class="container mt-5" id="content">
+  <!-- Announcement Box -->
+  <div class="container-box">
+    <div class="announcement-heading">
+      <h2>LIFEGUARD ANNOUNCEMENT</h2>
+    </div>
+    <div class="announcement-content">
+      <p>Part-time students, male and female, will be hired to work as lifeguards at our University's Indoor Swimming Pool. Our University students who have at least a Bronze (*) Lifeguard certificate can apply to the Indoor Swimming Pool in person or via e-mail (yuzmehavuzu@kocaeli.edu.tr).</p>
+      <p><strong>Application conditions:</strong></p>
+      <ul>
+        <li>Have at least a Bronze Lifeguard certificate</li>
+        <li>Being a registered student at Kocaeli University, excluding non-thesis master's degree and private students</li>
+        <li>Not being a student who has suspended registration or a foreign student</li>
+        <li>Being educated during normal education period</li>
+        <li>Not having received any disciplinary punishment</li>
+        <li>To have the necessary knowledge, skills and abilities and good morals for the job to be employed</li>
+        <li>Not having an income at the minimum wage level, excluding orphan's pension and alimony</li>
+        <li>The contract has not been terminated due to violation of the contract between the part-time student and our University</li>
+      </ul>
+      <p><strong>Documents Required for Application:</strong></p>
+      <ul>
+        <li>2 Photocopies of Identity Card</li>
+        <li>Student Certificate with Wet Signature</li>
+        <li>Lifeguard Certificate</li>
+      </ul>
+      <p>(*) Those who do not have a certificate and are interested in lifeguarding can attend local courses opened by TTSF and obtain a certificate valid for two years for a fee.</p>
+      <p>(**) Part-Time Students are paid 1/4 of the minimum wage. Monthly work is 45 hours, and weekly work is planned as 11-12 hours.</p>
+      <table class="table mt-4">
+        <thead>
+          <tr>
+            <th scope="col">donem</th>
+            <th scope="col">kurul</th>
+            <th scope="col">dersAdi</th>
+            <th scope="col"> vize</th>
+          </tr>
+        </thead>
+        <tbody id="resultBody">
+          <!-- Result data will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div></p>
         </div>
-        <table class="table mt-4">
-          <thead>
-            <tr>
-              <th scope="col">donem</th>
-              <th scope="col">kurul</th>
-              <th scope="col">dersAdi</th>
-              <th scope="col"> vize</th>
-            </tr>
-          </thead>
-          <tbody id="resultBody">
-            <!-- Result data will be dynamically inserted here -->
-          </tbody>
-        </table>
       </div>
     </div>`;
 
@@ -261,6 +362,260 @@
         <td>${item.vize}</td>
       </tr>`;
       resultBody.innerHTML += row;
+
+      document.getElementById('homepageLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    // Load homepage content dynamically here
+    document.getElementById('studentDetails').innerHTML = `<h1> Weclome to kocaeli University</h1>
+    <div class="container mt-4">
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to Our University</h1>
+      <p class="lead">Where knowledge meets opportunity</p>
+      <hr class="my-4">
+      <p>Explore our programs, faculty, research, and more to discover the endless possibilities awaiting you.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    <!-- Cards -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Academic Excellence</h5>
+            <p class="card-text">Our university is committed to providing exceptional education and fostering academic achievement.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Diverse Community</h5>
+            <p class="card-text">Join a vibrant and diverse community of students, faculty, and staff from around the world.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Global Opportunities</h5>
+            <p class="card-text">Expand your horizons with our international exchange programs and global partnerships.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div`;
+  });
+    
+        document.getElementById('homeLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    // Load home content dynamically here
+    
+    document.getElementById('studentDetails').innerHTML =  '';
+  });
+
+        document.getElementById('departmentInfoLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    
+    // Load department information content dynamically here
+    document.getElementById('studentDetails').innerHTML = `<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>General Aim</h2>
+      <p>
+        The general aim of Kocaeli University Faculty of Medicine pre-graduation education is to train physicians with the following competencies:
+      </p>
+      <ul>
+        <li>Knowing the health problems of Turkey, equipped with the knowledge, skills and attitudes to overcome these problems during primary health care.</li>
+        <li>Being able to work as a physician and manager in primary health care institutions, as well as other health care institutions.</li>
+        <li>Physicians who can contribute to the development of public health awareness, practice their profession by observing ethical rules, and are researchers and questioners, who think scientifically, and renew and improve themselves throughout life.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <h2>Mission</h2>
+      <p>
+        To train self-improving, competent physicians who have the ability to provide society-oriented health services and universal values, to conduct research that contributes to science at a universal level, taking into account the needs of our country and region, to provide qualified health services in the light of contemporary scientific developments and in line with the principles of good medicine, with the responsibility of a public institution to make pioneering efforts to improve public health and environmental problems.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <h2>Vision</h2>
+      <p>
+        To have become a regional reference center in twenty years, to have reached the level of exemplary medical faculties in the world in medical education, and to have been among the top five medical faculties in the country in the health research rankings.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <p><strong>The data on this page has no official validity.</strong></p>
+    </div>
+  </div>
+</div>`;
+  });
+
+  document.getElementById('studentAffairsLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    // Load student affairs content dynamically here
+    document.getElementById('studentDetails').innerHTML =` <div class="container mt-5" id="content">
+  <!-- Announcement Box -->
+  <div class="container-box">
+    <div class="announcement-heading">
+      <h2>You are invited to the "Grain of Wheat" Film Screening and Interview</h2>
+    </div>
+    <div class="announcement-content">
+      <p>Organized by Kocaeli University Disabled Research and Application Unit on Monday, May 13 at 13.00 on the occasion of Disabled People's Week; You are invited to a screening of the film that tells the true life story of a disabled individual who becomes a member of parliament, and then to an interview with Istanbul MP Serkan Bayram, the hero of the life story that is the subject of the movie.</p>
+    </div>
+  </div>
+</div>
+</p>
+<p><div class="container mt-5" id="content">
+  <!-- Announcement Box -->
+  <div class="container-box">
+    <div class="announcement-heading">
+      <h2>About Examination Right Applications.</h2>
+    </div>
+    <div class="announcement-content">
+      <p>Students who have completed their maximum education period and obtained additional semester or unlimited exam rights for graduation by taking additional exams held on the relevant dates can use the "Request Procedures / Examination" page on the student information system pages for courses in which they have failed and for which only the exam right will be used, for which the course selection is not made from the student information system during the course registration period. By using the "Right" link, students will be able to select (application for) courses among the unsuccessful courses for which they have met the attendance requirement between 03-12 May at 17.30 . If the applied course is a Fall semester course, the exams will be held between 20-24 May 2024 (Make-up exam week), and if it is a Spring semester course, the exams will be held between 27 May-07 June 2024 (Final exam week).</p>
+    </div>
+  </div>
+</div></p>
+<p><div class="container mt-5" id="content">
+  <!-- Announcement Box -->
+  <div class="container-box">
+    <div class="announcement-heading">
+      <h2>LIFEGUARD ANNOUNCEMENT</h2>
+    </div>
+    <div class="announcement-content">
+      <p>Part-time students, male and female, will be hired to work as lifeguards at our University's Indoor Swimming Pool. Our University students who have at least a Bronze (*) Lifeguard certificate can apply to the Indoor Swimming Pool in person or via e-mail (yuzmehavuzu@kocaeli.edu.tr).</p>
+      <p><strong>Application conditions:</strong></p>
+      <ul>
+        <li>Have at least a Bronze Lifeguard certificate</li>
+        <li>Being a registered student at Kocaeli University, excluding non-thesis master's degree and private students</li>
+        <li>Not being a student who has suspended registration or a foreign student</li>
+        <li>Being educated during normal education period</li>
+        <li>Not having received any disciplinary punishment</li>
+        <li>To have the necessary knowledge, skills and abilities and good morals for the job to be employed</li>
+        <li>Not having an income at the minimum wage level, excluding orphan's pension and alimony</li>
+        <li>The contract has not been terminated due to violation of the contract between the part-time student and our University</li>
+      </ul>
+      <p><strong>Documents Required for Application:</strong></p>
+      <ul>
+        <li>2 Photocopies of Identity Card</li>
+        <li>Student Certificate with Wet Signature</li>
+        <li>Lifeguard Certificate</li>
+      </ul>
+      <p>(*) Those who do not have a certificate and are interested in lifeguarding can attend local courses opened by TTSF and obtain a certificate valid for two years for a fee.</p>
+      <p>(**) Part-Time Students are paid 1/4 of the minimum wage. Monthly work is 45 hours, and weekly work is planned as 11-12 hours.</p>
+      <table class="table mt-4">
+        <thead>
+          <tr>
+            <th scope="col">donem</th>
+            <th scope="col">kurul</th>
+            <th scope="col">dersAdi</th>
+            <th scope="col"> vize</th>
+          </tr>
+          <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>Dolaşım ve Solunum Sistemleri</td>
+      <td>61.3</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>Sindirim Sistemi ve Metabolizma</td>
+      <td>51.2</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>3</td>
+      <td>Urogenital Sistem ve Endokrin Sistem</td>
+      <td>55.2</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>4</td>
+      <td>Sinir Sistemi ve Duyu Organları</td>
+      <td>60.2</td>
+    </tr>
+        </thead>
+        <tbody id="resultBody">
+          <!-- Result data will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div></p>
+        </div>
+      </div>
+    </div>`;
+  });
+
+  document.getElementById('whatToDoLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    // Load "What You Need To Do" content dynamically here
+    document.getElementById('studentDetails').innerHTML = `<div class="container mt-4">
+    <!-- Content -->
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Faculty of Medicine</h2>
+        <h3 class="card-subtitle mb-2">Medicine</h3>
+        <h4 class="card-subtitle mb-2">Admission Conditions</h4>
+        <p class="card-text">Turkish students are accepted to the program through a central exam within the framework of the regulations determined by the Council of Higher Education. International students are accepted through internationally valid exams within the framework of the rules determined by the Council of Higher Education.</p>
+        <h4 class="card-subtitle mb-2">Graduation Requirements</h4>
+        <p class="card-text">Students who successfully complete the six-year education with a total of 360 ECTS credits are entitled to graduate from medical school. However, graduates of the Faculty of Medicine obtain their graduation diplomas after completing their two-year compulsory service and following approval by the Turkish Ministry of Health.</p>
+        <h4 class="card-subtitle mb-2">Degree to be Received</h4>
+        <p class="card-text">The data on this page has no official validity.</p>
+      </div>
+    </div>
+  </div>`;
+  });
+
+  document.getElementById('generalLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    // Load general content dynamically here
+    document.getElementById('studentDetails').innerHTML = ` <div class="container mt-4">
+    <!-- Content -->
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Leaving Message from the Dean's Office</h2>
+        <p class="card-text">Dear Students,<br><br>
+          As it is known, in accordance with the decision taken at the meeting of the Council of Higher Education on 9.8.2012, I have been serving as the Dean of Kocaeli University Faculty of Medicine since the said date. Since the date I took office, we, as a team, have worked to increase the national and international recognition of our faculty, to create a faculty environment that is "Scientific and Humane", sensitive to social problems, constructive and friendly with its students, to improve medical education and to find solutions to the problems of students, research assistants, and faculty members.
+          I would like to say that I have benefited greatly from the feedback and contributions of my students during my deanship and that I attach great importance to your support.
+          As a result of our evaluations taking into account the change in management at our university, although we have no reservations about working with the new management, I am leaving my duty as dean as of January 1, 2015, with the belief that a responsible administrator has the right to carry out his own plans and programs with the people he chooses.
+          I would like to thank all my colleagues, especially my assistant deans with whom I am very happy to work.
+          I would like to state that I will be near you from now on and the door of my room in the Department of Pediatrics (2nd floor) is always open to you.
+          I wish you a happy new year and love.<br><br>
+          Good luck, our dear students.<br><br>
+          December 25, 2014<br>
+          Prof. Dr. Şükrü Hatun<br>
+          Dean<br>
+          25/12/2014
+        </p>
+      </div>
+    </div>
+
+    <!-- Add other messages here with similar card structures -->
+    
+  </div>`;
+  });
+
+  document.getElementById('jsLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    // Load JavaScript content dynamically here
+    document.getElementById('studentDetails').innerHTML = 'JavaScript Content';
+  });
+   
+        
+
+
+      
     });
   }
 </script>
